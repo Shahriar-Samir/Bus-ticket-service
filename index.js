@@ -68,7 +68,7 @@ couponApply.addEventListener('click', function(){
             discountEl.innerHTML = `<span>Discount price</span> <span>BDT ${discount}</span> `
             couponField.classList.add('hidden')
         }
-        else if(couponCode.value === 'Couple20'){
+        else if(couponCode.value === 'Couple 20'){
             couponCode.value = ''
             discountEl.classList.remove('hidden')
             discountEl.innerText = 'you got 20% discount'
