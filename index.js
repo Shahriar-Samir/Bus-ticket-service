@@ -1,7 +1,3 @@
-// disabled buttons
-couponApply.setAttribute('disabled',true)
-nextBtn.setAttribute('disabled', true)
-
 // html elements
 const seats = document.getElementsByClassName('seat')
 const totalSeats = document.getElementById('seats')
@@ -19,6 +15,11 @@ const couponApply = document.getElementById('coupon-apply')
 const couponField = document.getElementById("coupon-field")
 const discountEl = document.getElementById('discount')
 const continueBtn = document.getElementById('continue')
+
+// disabled buttons
+couponApply.setAttribute('disabled',true)
+nextBtn.setAttribute('disabled', true)
+
 
 // discount amount
 let discount = 0 
